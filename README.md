@@ -11,7 +11,7 @@ This tool could predict BacMLST using genome data. The database is downloaded fr
 The reason I write this script is similar with the former tools BacSpecies, I'm a beginner of bioinformatics, started to study python three month ago, so, this kind of tools based on a very simple logic, it's very suitable for trainning.
 
 
-If anyone want to try to use this tools and give me some advise, I will be very greatful! However, If you are seeking for a tool to solve some urgent problem or work, I recommend PubMLST (pubmlst.org), mlst in CGE (), or mlst developed by tseemann (https://github.com/tseemann/mlst) these tools are very mature, accurancy and faster than mine. However, my tool can also do the job commonly, just a little slow, and maybe have some problems I haven't found yet, if you give the species, almost 10 second for one genome, if not, it will cost 30 - 60 second.
+If anyone want to try to use this tools and give me some advise, I will be very greatful! However, If you are seeking for a tool to solve some urgent problem or work, I recommend PubMLST (https://pubmlst.org), mlst in CGE (https://cge.food.dtu.dk/services/MLST/), or mlst developed by tseemann (https://github.com/tseemann/mlst) these tools are very mature, accurancy and faster than mine. However, my tool can also do the job commonly, just a little slow, and maybe have some problems I haven't found yet, if you give the species, almost 10 second for one genome, if not, it will cost 30 - 60 second.
 
 
 # External Dependencies
@@ -19,15 +19,15 @@ BLAST+
 
 
 # Usage
-Put the python script and reference_database file into the folder contains your sequence file
+Put the python script, MLST_database and reference_database file into the folder contains your sequence file
 
 unzip reference_database.zip and MLST_database before use
 ```
-BacSpecies [-i] [-o] [-r] [-t] [-v]
+BacMLST [-i] [-o] [-r] [-t] [-v]
 Input and Output:
   -i, --input             Input FASTA file
   -o, --output            Output directory
-  -r, --refs              fasta file contain all 16S rRNA sequence from NCBI
+  -r, --refs              fasta file contain all MLST informations
 Parameters:
   --outfmt                You can set the output format, we give two options, 'mix' and 'same'
   -t, --threads           Threads to use for BLAST searches
@@ -35,5 +35,5 @@ Parameters:
 ```
 # Quick usage
 ``` Python
-python BacSpecies.py -i *.fasta 
+python BacMLST.py -i *.fasta 
 ```
