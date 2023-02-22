@@ -12,7 +12,7 @@ import multiprocessing
 import subprocess
 import time
 
-__version__ = '1.0, 2023-01-11'
+__version__ = '2.0, 2023-01-11'
 
 def get_argument():
     # Parsers
