@@ -11,7 +11,7 @@ This tool could predict BacMLST using genome data. The database is downloaded fr
 The reason I write this script is similar with the former tools BacSpecies, I'm a beginner of bioinformatics, started to study python three month ago, so, this kind of tools based on a very simple logic, it's very suitable for trainning.
 
 
-If anyone want to try to use this tools and give me some advise, I will be very greatful! However, If you are seeking for a tool to solve some urgent problem or work, I recommend PubMLST (https://pubmlst.org), mlst in CGE (https://cge.food.dtu.dk/services/MLST/), or mlst developed by tseemann (https://github.com/tseemann/mlst) these tools are very mature, accurancy and faster than mine. However, my tool can also do the job commonly, just a little slow, and maybe have some problems I haven't found yet, if you give the species, almost 10 second for one genome, if not, it will cost 30 - 60 second.
+If anyone want to try to use this tools and give me some advices, I will be very grateful! However, If you are seeking for a tool to solve some urgent problem or work, I recommend PubMLST (https://pubmlst.org), mlst in CGE (https://cge.food.dtu.dk/services/MLST/), or mlst developed by tseemann (https://github.com/tseemann/mlst) these tools are very mature, accurancy and faster than mine. However, my tool can also do the job commonly, just a little slow, and maybe have some problems I haven't found yet, if you give the species, almost 10 second for one genome, if not, it will cost 30 - 60 second.
 
 
 # External Dependencies
