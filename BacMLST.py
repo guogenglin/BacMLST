@@ -217,7 +217,7 @@ def output(outdir, best_match, best_ST, inputfile, species, outfmt, labels):
         table.write('\n')   
 
 def main():
-    print('If you have any quesion or suggestion in using BacMLST, please contact Genglin Guo, e-mail: 2019207025@njau.edu.cn')
+    print('If you have any quesion or suggestion for BacMLST, please contact Genglin Guo, e-mail: 2019207025@njau.edu.cn')
     starttime = time.perf_counter()
     # Initialize
     args = get_argument().parse_args()
